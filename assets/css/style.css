@@ -1,34 +1,35 @@
 body {
-    background:rgba(212, 212, 211, 0.932);
+    background-color: gray;
 }
+
 header{
     margin: 0 auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #ffffff;
     border-color: #cccccc;
-
-
-
-
+    box-align: center;
 
 }
+
 .name {
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#ffffff;
-    width: 23%;
+    width: 250px; /* changed this to px instead of %,hopefully this gets rid of it changing widths*/
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-left:60px;
+    margin-left:100px;
+    position: relative; /* gotta get these into the header*/
+   
 
 }
 .topLinks{
-    float: right;
+    float: right; /* made this float left instead of right*/
 
 }
-.section {
+.sectionTitle {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     padding-left: 25px;
