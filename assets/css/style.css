@@ -1,12 +1,16 @@
 body {
-    background-color: gray;
+    background-image: url(../images/positive.png);
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin:0;
 }
 
 header{
     margin: 0 auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #ffffff;
-    border-color: #cccccc;
     box-align: center;
 
 }
