@@ -1,20 +1,24 @@
+/*this controls the html document body*/
 body {
     background-image: url(../images/positive.png);
     margin: 0;
     padding: 0;
 }
+/* this conrols the h1 tag*/
 h1{
-    margin:0;
+    margin: 0 auto;
 }
 
+/* this controls the section behind the name at the top*/
 header{
-    margin: 0 auto;
+    margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #ffffff;
+    border-bottom:  #cccccc solid;
     box-align: center;
 
 }
-
+/*this controls the way the name looks at the top of the page*/
 .name {
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -24,15 +28,14 @@ header{
     padding-bottom: 25px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-left:100px;
+    margin: 0;
     position: relative; /* gotta get these into the header*/
-   
-
 }
-.topLinks{
-    float: right; /* made this float left instead of right*/
 
-}
+
+  
+
+
 .sectionTitle {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
@@ -40,10 +43,12 @@ header{
     padding-top: 50px;
     padding-bottom: 25px;
     border-bottom: solid 5px #dddddd;
+  
 }
 
 a {
     color: #777777;
+   
 }
 
 #footer{
@@ -55,6 +60,7 @@ a {
 #pic {
     float: left;
     padding-left: 25px;
+    padding-top: 30px;
 }
  p{
      font-family: Arial, Helvetica, sans-serif;
