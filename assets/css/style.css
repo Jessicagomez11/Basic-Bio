@@ -3,19 +3,23 @@ body {
     background-image: url(../images/positive.png);
     margin: 0;
     padding: 0;
+    line-height: 20px;
 }
 /* this conrols the h1 tag*/
 h1{
-    margin: 0 auto;
+    margin: 0;
+    position: relative;
+
 }
 
 /* this controls the section behind the name at the top*/
 header{
-    margin: 0;
+    margin: 0 auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #ffffff;
     border-bottom:  #cccccc solid;
     box-align: center;
+    
 
 }
 /*this controls the way the name looks at the top of the page*/
@@ -24,18 +28,27 @@ header{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#ffffff;
     width: 250px; /* changed this to px instead of %,hopefully this gets rid of it changing widths*/
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 25px 20px 25px 20px;
     margin: 0;
-    position: relative; /* gotta get these into the header*/
+    position: relative;  /*gotta get these into the header*/ 
+
+   
 }
 
-
   
+ #container{
+    margin: 0 auto;
+    width: 960px;
+    overflow: auto; /*;length of the content block*/
+    background-color: #ffffff;
+    border-color: #dddddd;
+    box-align: center;
+    position: relative;
+} 
 
 
+
+/* this controls the about me, portfolio, and contact headings*/
 .sectionTitle {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
@@ -45,36 +58,48 @@ header{
     border-bottom: solid 5px #dddddd;
   
 }
-
+ /*this controls the links*/
 a {
     color: #777777;
+    clear: both;
    
+   
+    
 }
 
-#footer{
-    background-color: #666666;
-    height: 100px;
-    border-top: 5px solid #4aaaa5;
+
 
 }
-#pic {
+/*bio image*/
+#pic, 
+p  {
     float: left;
-    padding-left: 25px;
-    padding-top: 30px;
 }
+
+
+
+/*what the writing looks like*/
  p{
-     font-family: Arial, Helvetica, sans-serif;
-     color: #777777;
-     float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+   
+  
 
 
  }
 
- #container{
-     margin: 0 auto;
-     width: 960px;
-     height: 700px;
-     background-color: #ffffff;
-     border-color: #dddddd;
-     box-align: center;
- } 
+
+ /*footer situation*/
+#footer{
+    background-color: #666666;
+    height: 100px;
+    border-top: 5px solid #4aaaa5;
+   
+
+}
+
+button{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 25px;
+}
