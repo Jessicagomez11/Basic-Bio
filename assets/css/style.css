@@ -19,6 +19,7 @@ header{
     background-color: #ffffff;
     border-bottom:  #cccccc solid;
     box-align: center;
+    width: 100%;
     
 
 }
@@ -39,11 +40,12 @@ header{
  #container{
     margin: 0 auto;
     width: 960px;
-    overflow: auto; /*;length of the content block*/
+    height: 700px;
     background-color: #ffffff;
     border-color: #dddddd;
     box-align: center;
     position: relative;
+   
 } 
 
 
@@ -62,18 +64,16 @@ header{
 a {
     color: #777777;
     clear: both;
-   
+    
    
     
 }
 
 
-
 }
 /*bio image*/
-#pic, 
-p  {
-    float: left;
+#pic {
+    width:260px;
 }
 
 
@@ -82,9 +82,9 @@ p  {
  p{
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
+    
    
-  
-
+   
 
  }
 
@@ -96,6 +96,8 @@ p  {
     border-top: 5px solid #4aaaa5;
    
 
+   
+
 }
 
 button{
@@ -103,3 +105,7 @@ button{
     color: #ffffff;
     font-size: 25px;
 }
+.tipitytop{
+    width: 960px;
+   margin: 0 auto;
+}  
