@@ -28,16 +28,14 @@ header{
     color: #777777;
     /* clear: both; */
     margin: 10px;
+    font-size: 15px;
+    opacity: .5;
+    margin-top: 10px;
    
 }
-#linkDiv{
-  margin-left: 800px;
- 
-}
-
 
 a:hover{
-    font-size: 25px;
+    font-size: 18px;
     color: #4aaaa5;
 }
 /*this controls the way the name looks at the top of the page*/
@@ -53,10 +51,12 @@ a:hover{
     font-size: 32px;
     box-align: center;
     text-align: center;
+    margin-right: 400px;    
 }
 .tipitytop{
     width: 960px;
    margin: 0 auto;
+   
 }  
 
 
